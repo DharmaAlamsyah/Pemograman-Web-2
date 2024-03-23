@@ -9,5 +9,4 @@ $routes->get('/', 'Home::index');
 
 $routes->get('/home', 'Pages::home');
 $routes->get('/about', 'Pages::about');
-
-$routes->setAutoRoute(true);
+$routes->get('/contact', 'Pages::contact');
