@@ -7,6 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- My CSS  -->
+    <link rel="stylesheet" href="/css/style.css"> 
 
     <title><?= $title; ?></title>
   </head>
@@ -23,6 +26,7 @@
         <a class="nav-link active" aria-current="page" href="/pages/home">Beranda</a>
         <a class="nav-link" href="/pages/about">Tentang</a>
         <a class="nav-link" href="/pages/contact">Hubungi kami</a>
+        <a class="nav-link" href="/komik">Komik</a>
       </div>
     </div>
   </div>
