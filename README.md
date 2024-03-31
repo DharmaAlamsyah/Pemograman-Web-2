@@ -1,6 +1,7 @@
 #Hasil PEMWEB 2
 
-
+Komik
+![4](https://github.com/DharmaAlamsyah/Pemograman-Web-2/assets/145315461/0cb01e28-90a9-48f1-a4b6-53e5ac519aef)
 Contact
 ![3](https://github.com/DharmaAlamsyah/Pemograman-Web-2/assets/145315461/6f292201-328c-4e99-be84-3509dc412d26)
 About
