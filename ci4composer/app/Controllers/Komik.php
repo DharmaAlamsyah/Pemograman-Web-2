@@ -14,17 +14,28 @@ class Komik extends BaseController
     
     public function index()
     {
-        $komik = $this->komikModel->findAll();
+        // karena sudah membuat method sendiri buat menampilkan,
+        // code ini dihapus atau di buat komentar
+        // $komik = $this->komikModel->findAll();
 
         $data = [
             'title' => 'Daftar Komik',
-            'komik' => $komik
+            //Di panggil menggunakan ini dan tanpa parameter
+            'komik' => $this->komikModel->getKomik()
         ];
-
         // $komikModel = new \App\Models\KomikModel();
-        
 
         return view('komik/index', $data);
         
+    }
+
+    public function detail($slug)
+    {
+        $data = [
+            'title' => 'Detail Komik',
+            'komik' => $this->komikModel->getKomik($slug)
+        ];
+
+        return view('komik/detail', $data);
     }
 }

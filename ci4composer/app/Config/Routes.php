@@ -7,6 +7,5 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
-$routes->get('/home', 'Pages::home');
-$routes->get('/about', 'Pages::about');
-$routes->get('/contact', 'Pages::contact');
+//Buat Route baru untuk mengakses detail
+$routes->get('/komik/(:segment)', 'Komik::detail/$1');
