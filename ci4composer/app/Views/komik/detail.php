@@ -5,10 +5,11 @@
     <div class="row">
         <div class="col">
             <h2 class="mt-2">Detail Komik</h2>
+            <?php if ($komik): ?>
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
                     <div class="col-md-4">
-                    <img src="/img/<?= $komik['sampul']; ?>" class="img-fluid rounded-start" alt="...">
+                        <img src="/img/<?= $komik['sampul']; ?>" class="img-fluid rounded-start" alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -23,6 +24,9 @@
                     </div>
                 </div>
             </div>
+            <?php else: ?>
+                <p>Data komik tidak ditemukan.</p>
+            <?php endif; ?>
         </div>
     </div>
 </div>

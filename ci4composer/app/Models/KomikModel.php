@@ -9,6 +9,7 @@ class KomikModel extends Model
     protected $table      = 'komik';
     protected $primaryKey = 'id';
     protected $useTimestamps = true;
+    protected $allowedFields = ['judul', 'slug', 'penulis', 'penerbit', 'sampul'];
 
     //membuat method detail
     public function getKomik($slug =false)
