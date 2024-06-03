@@ -17,7 +17,13 @@
                             <p class="card-text"><b>Penulis : </b> <?= $komik['penulis']; ?></p>
                             <p class="card-text"><small class="text-body-secondary"><b>Penerbit : </b> <?= $komik['penerbit']; ?></small></p>
                             <a href="" class="btn btn-warning">Ubah</a>
-                            <a href="" class="btn btn-danger">Hapus</a>
+
+                            <form action="/komik/<?= $komik['id']; ?>" method="post" class="d-inline">
+                                <?= csrf_field(); ?>
+                                <input type="hidden" name="_method" value="HAPUS">
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('Apakah Anda Yakin?');">Hapus</button>
+                            </form>
+                            
                             <br></br>
                             <a href="/komik">Kembali ke daftar Komik</a>
                         </div>
