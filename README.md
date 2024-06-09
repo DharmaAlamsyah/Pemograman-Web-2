@@ -1,5 +1,9 @@
 #Hasil PEMWEB 2
 
+validation dan delete
+![Screenshot 2024-06-03 140156](https://github.com/DharmaAlamsyah/Pemograman-Web-2/assets/145315461/49fbbb5f-d7ef-4f51-85e9-ff563fd9eabb)
+![Screenshot 2024-06-03 144846](https://github.com/DharmaAlamsyah/Pemograman-Web-2/assets/145315461/f37c8bb9-54f4-4011-a40c-967c7f7f20d6)
+
 insert Data
 ![Screenshot 2024-05-19 222648](https://github.com/DharmaAlamsyah/Pemograman-Web-2/assets/145315461/ef096241-e57e-46f1-9b73-07bcd23fc48a)
 
